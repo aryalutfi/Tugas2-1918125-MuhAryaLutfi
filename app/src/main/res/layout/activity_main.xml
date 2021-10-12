@@ -4,23 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="horizontal">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <fragment
-        android:layout_width="0px"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/praktikumfragmen1"
-        android:name="com.example.fragmen_1918125.praktikumfragmen1"/>
-    <fragment
-        android:layout_width="0px"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/praktikumfragmen2"
-        android:name="com.example.fragmen_1918125.praktikumfragmen2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        >
 
+        <fragment
+            android:id="@+id/praktikumfragmen2"
+            android:name="com.example.fragmen_1918125.praktikumfragmen2"
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
+        <fragment
+            android:id="@+id/praktikumfragmen1"
+            android:name="com.example.fragmen_1918125.praktikumfragmen1"
+            android:layout_width="271dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="375dp">
+
+        <fragment
+            android:id="@+id/praktikumfragmen3"
+            android:name="com.example.fragmen_1918125.praktikumfragmen3"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/praktikumfragmen4"
+            android:name="com.example.fragmen_1918125.praktikumfragmen4"
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
 
 
 </LinearLayout>

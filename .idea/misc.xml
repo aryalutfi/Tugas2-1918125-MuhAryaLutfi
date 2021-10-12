@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/acer/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/app/src/main/res/layout/fragment_praktikumfragmen3.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/app/src/main/res/layout/praktikumfragmen1.xml" value="0.25" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/app/src/main/res/layout/praktikumfragmen2.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/app/src/main/res/layout/praktikumfragmen3.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/app/src/main/res/layout/praktikumfragmen4.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
